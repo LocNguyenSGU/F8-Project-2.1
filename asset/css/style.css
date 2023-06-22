@@ -237,8 +237,7 @@ header .btn-action:hover {
    margin-top: 18px;
    flex-shrink: 0;
    color: #767E7E;
-   font-size: 18px;
-   font-family: Poppins;
+   font-size: 1.8rem;
 }
 
 .block-feature {
@@ -262,4 +261,109 @@ header .btn-action:hover {
 .block-feature .desc {
    width: 168px;
    margin-top: 16px;
+}
+
+/* ======== Course ========= */
+.course {
+   margin-top: 130px;
+}
+
+.course .sub-title {
+   color: #767E7E;
+   font-size: 1.2rem;
+   font-weight: 700;
+}
+
+.course .title {
+   color: #0D1111;
+   font-size: 4.2rem;
+   font-weight: 700;
+   line-height: 1.33;
+   width: 577px;
+   margin-top: 18px;
+}
+
+.course .desc {
+   width: 525px;
+   margin-top: 18px;
+   color: #767E7E;
+   font-size: 18px;
+}
+
+.course .row {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.course .row .link {
+   color: #1EBFC1;
+   font-size: 14px;
+   font-weight: 700;
+   text-decoration-line: underline;
+}
+
+.block-1,
+.block-2,
+.block-3 {
+   width: 359px;
+   height: 393px;
+}
+
+.course-block .image {
+   width: 359px;
+   height: 393px;
+   object-fit: cover;
+   border-radius: 8px;
+   background: #D0EFED;
+}
+
+.course-block {
+   margin-top: 79px;
+   display: flex;
+   gap: 47px;
+}
+
+.course-block .title {
+   font-size: 2.2rem;
+}
+.course-block .block-1, .course-block .block-2, .course-block .block-3 {
+   position: relative;
+}
+.course-block .info {
+   position: absolute;
+   border-radius: 8px;
+   background: #FFF;
+   box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+   padding: 18px 82px 29px 25px;
+   width: 325px;
+   bottom: -118px;
+   left: 17px;
+}
+
+.course .info .price {
+   margin-top: 16px;
+}
+
+.course .info strong {
+   font-weight: 700;
+}
+
+.course .info .desc {
+   margin-top: 6px;
+   font-size: 1.4rem;
+}
+
+.course .row-last {
+   margin-top: 18px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.course .row-last .dot {
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   background-color: #1EBFC1;
 }
