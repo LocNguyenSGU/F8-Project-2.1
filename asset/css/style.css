@@ -9,6 +9,7 @@ html {
 body {
    font-size: 1.6rem;
    font-family: 'Poppins', sans-serif;
+   height: 5000px;
 }
 
 /* ======== Common ========= */
@@ -39,12 +40,17 @@ a {
 }
 
 /* ======== Header ========= */
+header {
+   position: sticky;
+   z-index: 1;
+   top: 7px;
+}
+
 header .body {
    display: flex;
    margin-top: 52px;
    align-items: center;
-   position: sticky;
-   z-index: 1;
+
 }
 
 .navbar {
@@ -78,9 +84,11 @@ header .action .sign-in {
    color: #494949;
    font-size: 1.6rem;
 }
+
 header .action .sign-in:hover {
    font-weight: 600;
 }
+
 header .btn-action {
    margin-left: 19px;
    color: #1EBFC1;
@@ -195,4 +203,63 @@ header .btn-action:hover {
    color: #0D1111;
    font-size: 10px;
    font-weight: 500;
+}
+
+/* ======== Feature ========= */
+.feature {
+   margin-top: 130px;
+}
+
+.fea-content {
+   width: 1024px;
+   margin-left: 259px;
+   margin-right: auto;
+}
+
+.feature .sub-title {
+   color: #767E7E;
+   font-size: 1.2rem;
+   font-weight: 700;
+}
+
+.feature .title {
+   color: #0D1111;
+   font-size: 4.2rem;
+   font-weight: 700;
+   line-height: 1.33;
+   width: 577px;
+   margin-top: 18px;
+}
+
+.feature .desc {
+   display: flex;
+   width: 590px;
+   margin-top: 18px;
+   flex-shrink: 0;
+   color: #767E7E;
+   font-size: 18px;
+   font-family: Poppins;
+}
+
+.block-feature {
+   display: flex;
+   margin-top: 80px;
+   justify-content: space-between;
+}
+
+.block-feature .icon {
+   display: block;
+}
+
+.block-feature .sub-icon {
+   display: block;
+   margin-top: 26px;
+   color: #0D1111;
+   font-size: 2rem;
+   font-weight: 600;
+}
+
+.block-feature .desc {
+   width: 168px;
+   margin-top: 16px;
 }
